@@ -4,7 +4,7 @@ import tensorflow as tf
 st.markdown('## 🎡🏰🚝🎠🪧🎈✨🍬🎆🎇🎪')
 st.title('Disneyland Reviews Classification')
 
-model_1 = tf.keras.models.load_model('model_1')
+model_1 = tf.keras.models.load_model('model_1') # https://github.com/undisputedcoder/Disney-Sentimentron/releases/tag/v1.0
 sentiment = {0: 'negative', 1: 'positive'}
 
 review = st.text_area('Enter a review of your experience at Disneyland', height=350)
